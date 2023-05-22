@@ -1,0 +1,30 @@
+header{
+    display: flex;
+    background: url(https://picsum.photos/1000);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 20em;
+    margin-top: 0;
+    box-shadow: 3px 1px 10px 5px #87BB34;
+}
+
+h1{
+    margin: auto;
+    margin-right: 2%;
+    margin-left: 33%;
+    font-size: 5em;
+    color: #87BB34;
+    text-shadow: 3px 3px 3px black;
+}
+
+.logo {
+    width: 5em;
+    margin-top: 6.5%;
+}
+
+.logo img{
+    width: 5em;
+    background-color: #87BB34;
+    border-radius: 50%;
+}
