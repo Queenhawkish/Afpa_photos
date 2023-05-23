@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Queenhawkish/Afpa_photos/issues"
   },
-  "homepage": "https://github.com/Queenhawkish/Afpa_photos#readme"
+  "homepage": "https://github.com/Queenhawkish/Afpa_photos#readme",
+  "dependencies": {
+    "jquery": "^3.7.0",
+    "lightbox2": "^2.11.4"
+  }
 }

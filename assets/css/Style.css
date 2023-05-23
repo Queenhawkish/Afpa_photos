@@ -9,22 +9,67 @@ header{
     box-shadow: 3px 1px 10px 5px #87BB34;
 }
 
-h1{
+.logo {
+    margin-top: 6.5%;
     margin: auto;
-    margin-right: 2%;
-    margin-left: 33%;
     font-size: 5em;
     color: #87BB34;
-    text-shadow: 3px 3px 3px black;
+    text-shadow: 3px 3px 3px rgb(110, 183, 179);
+    font-weight: 900;
+    animation-name: titre;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
 }
 
-.logo {
-    width: 5em;
-    margin-top: 6.5%;
-}
+@keyframes titre {
+    from {color: yellow;}
+    to {color:#87BB34;}
+  }
 
 .logo img{
-    width: 5em;
+    width: 5%;
     background-color: #87BB34;
     border-radius: 50%;
+    margin-left: 2%;
+    margin-bottom: 5%;
+    position: relative;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes example {
+    0%   {left:0%; top:0%;}
+    100% {left:20%; top:0%;}
+  }
+
+#gallery {
+    margin: 4em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image{
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+    width: 40vh;
+    margin: 2em;
+}
+
+@media screen and (max-width:920px){
+    .logo{
+        font-size: 3em;
+        margin: auto;
+    }
+    .logo img{
+        width: 8%;
+    }
+    #gallery{
+        margin: auto;
+    }
 }
